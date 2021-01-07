@@ -19,7 +19,7 @@
 # <https://www.gnu.org/licenses/>.
 
 __title__ = "kpn-api-store"
-__version__ = "0.1.0"
+__version__ = "0.0.1"
 __author__ = "Roald Nefs"
 __email__ = "info@roaldnefs.com"
 __copyright__ = "Copyright 2021, Roald Nefs"
