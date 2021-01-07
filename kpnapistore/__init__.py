@@ -18,6 +18,9 @@
 # along with kpn-api-store-python. If not, see
 # <https://www.gnu.org/licenses/>.
 
-
-def test() -> None:
-    assert True
+__title__ = "kpn-api-store"
+__version__ = "0.1.0"
+__author__ = "Roald Nefs"
+__email__ = "info@roaldnefs.com"
+__copyright__ = "Copyright 2021, Roald Nefs"
+__license__ = "LGPL3"
