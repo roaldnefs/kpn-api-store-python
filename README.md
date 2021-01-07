@@ -19,3 +19,13 @@ client_secret = "APP_CLIENT_SECRET"
 client = Client(client_id, client_secret)
 client.send("KPN API", "316xxxxxxxx", "Hello from kpn-api-store-python!")
 ```
+
+## Installing kpn-api-store-python and Supported Versions
+
+**kpn-api-store-python** is available on PyPI:
+
+```console
+$ python -m pip install kpn-api-store
+```
+
+**kpn-api-store-python** officially supports Python 3.6+.
