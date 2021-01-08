@@ -1,4 +1,4 @@
-# kpn-api-store-python
+[![kpn-api-store-python](https://github.com/roaldnefs/kpn-api-store-python/blob/main/cover.png?raw=true)](https://github.com/roaldnefs/kpn-api-store-python)
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/kpn-api-store?color=090&logo=python&logoColor=white&style=for-the-badge)](https://pypi.org/project/kpn-api-store/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/kpn-api-store?color=090&logo=python&logoColor=white&style=for-the-badge)](https://pypi.org/project/kpn-api-store/)
