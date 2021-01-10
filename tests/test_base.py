@@ -43,7 +43,7 @@ class BaseClientTest(unittest.TestCase):
         """Test the base URL of the API."""
         url: str = self.client.url
 
-        assert url == "https://api-prd.kpn.com"
+        self.assertEqual(url, "https://api-prd.kpn.com")
 
     def test_access_token(self) -> None:
         """Test if the OAuth2 token has been set correctly."""
@@ -51,11 +51,11 @@ class BaseClientTest(unittest.TestCase):
         access_token: str = self.client._token["access_token"]  # type: ignore
         token_type: str = self.client._token["token_type"]  # type: ignore
 
-        assert access_token == "staG765sBUuai4OMeZiTful6PTRt"
-        assert token_type == "Bearer"
+        self.assertEqual(access_token, "staG765sBUuai4OMeZiTful6PTRt")
+        self.assertEqual(token_type, "Bearer")
 
     def test_authorization_header(self) -> None:
         """Test if the Authorization header is set correctly."""
         auth_header: str = self.client._headers["Authorization"]
 
-        assert auth_header == "Bearer staG765sBUuai4OMeZiTful6PTRt"
+        self.assertEqual(auth_header, "Bearer staG765sBUuai4OMeZiTful6PTRt")

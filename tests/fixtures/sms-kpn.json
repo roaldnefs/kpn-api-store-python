@@ -1,0 +1,20 @@
+[
+    {
+        "method": "POST",
+        "url": "https://api-prd.kpn.com/messaging/sms-kpn/v1/send",
+        "json": {
+            "document_id": "b4e905d4-774c-4c83-8360-01427e17a33a",
+            "status": "OK"
+        },
+        "status": 200,
+        "match_json_params": {
+            "sender": "KPN API",
+            "messages": [
+                {
+                    "mobile_number": "0600000000",
+                    "content": "Hi from KPN!"
+                }
+            ]
+        }
+    }
+]
